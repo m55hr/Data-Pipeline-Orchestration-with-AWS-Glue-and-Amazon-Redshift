@@ -28,7 +28,7 @@ job.init(args['JOB_NAME'], args)
 # Script generated for node Amazon S3
 AmazonS3_node1722374941636 = glueContext.create_dynamic_frame.from_catalog(database="glue-redshift-project", table_name="product", transformation_ctx="AmazonS3_node1722374941636")
 
-logger.info('print schema of S3bucket_node1 dynamic frame')
+logger.info('print schema of AmazonS3_node1722374941636 dynamic frame')
 AmazonS3_node1722374941636.printSchema()
 
 # Count the number of rows
