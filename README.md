@@ -12,3 +12,6 @@ Data Loading: The refined data was loaded into Redshift for efficient querying a
 Security and Connectivity: Utilized VPC gateway endpoints for secure data transfer between S3 and Redshift.
 Final ETL Job: The AWS Glue Data Catalog was leveraged to streamline the final ETL job, integrating the data into Redshift.
 This pipeline enabled streamlined data management and analytics, ensuring secure and efficient data flow.
+![overview](https://github.com/user-attachments/assets/b48bdd19-2b17-4e8b-a024-688d7e0402f6)
+![glue workflow](https://github.com/user-attachments/assets/cdaa9278-3722-42f1-919d-50f58f4794e1)
+
