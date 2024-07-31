@@ -34,7 +34,7 @@ AmazonS3_node1722374941636.printSchema()
 # Count the number of rows
 count = AmazonS3_node1722374941636.count()
 # Print and log the count
-print("Number of rows in S3bucket_node DynamicFrame:", count)
+print("Number of rows in AmazonS3_node1722374941636 DynamicFrame:", count)
 logger.info('Count for frame is {}'.format(count))
 
 # Script generated for node Change Schema
